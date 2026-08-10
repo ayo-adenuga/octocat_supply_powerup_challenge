@@ -49,9 +49,6 @@
 
 name: "Daily Repo Activity Summary"
 on:
-  schedule:
-  - cron: "51 23 * * *"
-    # Friendly format: daily (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
